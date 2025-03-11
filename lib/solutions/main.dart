@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_workshop/solutions/random_meal_page.dart';
+import 'package:flutter_workshop/solutions/recipes_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -6,7 +8,7 @@ void main() {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(
-            create: (_) => _), // adiciona o novo provider aqui.
+            create: (_) => RecipesProvider()), // adiciona o novo provider aqui.
       ],
       child: const MyApp(),
     ),
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'Melhor e mais fixe workshop do ano',
       home: Scaffold(
         body: Center(
-          child: _, // adiciona a tua nova página aqui
+          child: RandomMealPage(), // adiciona a tua nova página aqui
         ),
       ),
     );

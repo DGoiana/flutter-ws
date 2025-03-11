@@ -1,13 +1,12 @@
 class Meal {
-  // construtor
+  Meal(
+      {required this.name,
+      required this.category,
+      required this.region,
+      this.imageURL});
 
-  // nome
-
-  // categoria
-
-  // região
-
-  // instruções
-
-  // url da imagem (parâmetro adicional)
+  String name;
+  String category;
+  String region;
+  String? imageURL;
 }
