@@ -7,7 +7,5 @@ class Meal {
 
   // região
 
-  // instruções
-
   // url da imagem (parâmetro adicional)
 }

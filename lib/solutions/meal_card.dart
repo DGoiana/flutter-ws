@@ -45,9 +45,6 @@ class MealCard extends StatelessWidget {
               ],
             ),
           ),
-          Text(
-            meal.instructions,
-          ),
         ],
       ),
     );
