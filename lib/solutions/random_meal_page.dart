@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_workshop/fetch_random_meal.dart';
 import 'package:flutter_workshop/meal.dart';
 import 'package:flutter_workshop/meal_card.dart';
-import 'package:flutter_workshop/recipes_provider.dart';
+import 'package:flutter_workshop/solutions/recipes_provider.dart';
 import 'package:provider/provider.dart';
 
 class RandomMealPage extends StatefulWidget {

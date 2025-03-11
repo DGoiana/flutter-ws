@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'meal.dart';
+import '../meal.dart';
 
 Future<Meal> fetchRandomMeal() async {
   final response = await http
